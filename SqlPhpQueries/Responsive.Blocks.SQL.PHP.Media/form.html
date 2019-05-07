@@ -1,0 +1,17 @@
+<form action="add.php" method="post">
+	<label for="cat_code">Select category name</label>
+    <select id="cat_code" name="cat_code">
+    	<option value="1">Pets</option>
+        <option value="2">Vehicles</option>
+        <option value="3">Technology Items</option>
+        <option value="4">Household Items</option>
+        <option value="5">Wanted</option>
+    </select>
+    <p>&nbsp;</p>
+    <label for="content">Enter content of ad here:</label>
+    <textarea id="content" name="content"></textarea>
+    <p>Feature item of the week?</p>
+    <input type="radio" name="feature_item" value="Y"> Yes
+    <input type="radio" name="feature_item" value="N"> No
+    <input type="submit" value="Submit">
+</form>
